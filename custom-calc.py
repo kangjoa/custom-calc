@@ -44,9 +44,9 @@ print(f"\nA pyramid with a length of {length}, width of {width}, and height of {
 
 def pyramid_vol(length, width, height):
     """
-    Takes three float values and returns the volume of a pyramid as a float
+    Takes three numeric values and returns the volume of a pyramid as a float
     """
-    pv_function_answer = (length * width * height) / 3
+    pv_function_answer = (float(length * width * height) / 3)
 
     return pv_function_answer
 
